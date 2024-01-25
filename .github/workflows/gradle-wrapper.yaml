@@ -6,6 +6,7 @@ on:
       - 'gradlew'
       - 'gradlew.bat'
       - 'gradle/wrapper/'
+  workflow_dispatch:
 
 jobs:
   validate:
