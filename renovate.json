@@ -3,5 +3,12 @@
   "baseBranches": [
     "dev"
   ],
-  "useBaseBranchConfig": "merge"
+  "useBaseBranchConfig": "merge",
+  "packageRules": [
+    {
+      "description": "Automatically merge",
+      "automerge": true,
+      "automergeType": "pr"
+    }
+  ]
 }
